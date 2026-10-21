@@ -1,0 +1,17 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.14444",
+   "Default View_TopLeft":"-345,-20",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst clk_gate_0 -pg 1 -lvl 1 -x 120 -y 50 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 120 -y 170 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 0 2 10 240 230
+levelinfo -pg 1 -10 120 250
+pagesize -pg 1 -db -bbox -sgen -10 -20 250 250
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}
